@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بنية الذكاء الاصطناعي</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      list-style: none;
+      padding-right: 20px;
+    }
+    li::before {
+      content: "🔹 ";
+    }
+    .layer {
+      background-color: #e9f5ff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .icon {
+      font-size: 22px;
+    }
+    .example {
+      background-color: #fff8dc;
+      padding: 10px;
+      border-left: 4px solid #f39c12;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.pagination a {
+  text-decoration: none;
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.3s;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.pagination a:hover {
+  background-color: #0d47a1;
+}
+
+  </style>
+  
+  <div class="pagination">
+    <a href="index.html" class="prev">السابق</a>
+    <a href="l.html" class="next">التالي</a>
+  </div>
+</head>
+<body>
+  <div class="container">
+    <h1>بنية الذكاء الاصطناعي (AI Architecture) 🏛️</h1>
+    <p>بنية الذكاء الاصطناعي هي الإطار أو التركيبة التي يتكون منها النظام الذكي ليتمكن من العمل بشكل فعال. تتكون هذه البنية عادة من عدة طبقات ومكونات مترابطة.</p>
+    
+    <h2>العناصر الأساسية:</h2>
+
+    <div class="layer">
+      <h3>1. طبقة جمع البيانات (Data Layer) 📚</h3>
+      <p>هي المرحلة التي يتم فيها تجميع البيانات اللازمة لتعليم النظام.</p>
+      <ul>
+        <li>بيانات نصية</li>
+        <li>صور وفيديو</li>
+        <li>أصوات</li>
+        <li>بيانات حساسات أو أجهزة ذكية</li>
+      </ul>
+      <div class="example">📌 مثال: بيانات عن أمراض معينة لتدريب نظام تشخيص طبي.</div>
+    </div>
+
+    <div class="layer">
+      <h3>2. طبقة المعالجة والتحليل (Processing Layer) 🧠</h3>
+      <p>يتم فيها تنظيف البيانات وتصفيتها، وتحليلها وفهم أنماطها باستخدام تقنيات مثل:</p>
+      <ul>
+        <li>التحليل الإحصائي</li>
+        <li>التنقيب عن البيانات (Data Mining)</li>
+      </ul>
+      <div class="example">📌 مثال: معالجة صور طبية لاستخراج الخصائص المهمة منها.</div>
+    </div>
+
+    <div class="layer">
+      <h3>3. طبقة التعلم والنمذجة (Learning/Modeling Layer) 🏗️</h3>
+      <p>هي قلب الذكاء الاصطناعي، حيث يتم بناء نماذج تعلم آلي أو شبكات عصبونية.</p>
+      <ul>
+        <li>اختيار الخوارزميات المناسبة</li>
+        <li>تدريب النماذج على البيانات</li>
+        <li>اختبار النماذج وتحسينها</li>
+      </ul>
+      <div class="example">📌 مثال: تدريب شبكة عصبية للتعرف على الوجوه.</div>
+    </div>
+
+    <div class="layer">
+      <h3>4. طبقة الاستنتاج واتخاذ القرار (Inference/Decision Layer) ⚡</h3>
+      <p>بعد تدريب النموذج، يبدأ في التنبؤ أو اتخاذ القرارات بناءً على مدخلات جديدة.</p>
+      <p>يعتمد الذكاء هنا على:</p>
+      <ul>
+        <li>دقة النموذج</li>
+        <li>قدرته على التعميم على بيانات جديدة</li>
+      </ul>
+      <div class="example">📌 مثال: توقع إصابة مريض بمرض معين بناءً على تحاليله الطبية.</div>
+    </div>
+
+    <div class="layer">
+      <h3>5. طبقة التفاعل مع المستخدم (Interaction Layer) 🖥️</h3>
+      <p>واجهة النظام التي تسمح للمستخدمين بالتفاعل مع الذكاء الاصطناعي وتشمل:</p>
+      <ul>
+        <li>تطبيقات سطح المكتب</li>
+        <li>مواقع الويب</li>
+        <li>تطبيقات الهاتف</li>
+        <li>المساعدات الصوتية</li>
+      </ul>
+      <div class="example">📌 مثال: روبوت محادثة (Chatbot) يرد على استفسارات العملاء.</div>
+    </div>
+
+  </div>
+  <div class="pagination">
+    <a href="index.html" class="prev">السابق</a>
+    <a href="l.html" class="next">التالي</a>
+  </div>
+</body>
+</html>

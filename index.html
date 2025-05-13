@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> عالم الذكاء الاصطناعي؟</title>
+
+  <style>
+    img {
+      width:  90;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+   
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: white;
+      min-height: 100vh;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #4CAF50;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #444;
+      list-style: inside disc;
+      margin-bottom: 20px;
+    }
+
+    .emoji {
+      font-size: 24px;
+      margin-left: 8px;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px auto;
+      max-width: 300px;
+      padding: 10px;
+    }
+
+    .pagination a {
+      text-decoration: none;
+      background-color: #1976d2;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s;
+      font-weight: bold;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    .pagination a:hover {
+      background-color: #0d47a1;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-button {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 40px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      width: 200px; /* عرض ثابت للقائمة */
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 5px;
+      direction: rtl; /* لضمان أن النص يتجه من اليمين لليسار */
+    }
+
+    .dropdown-content a {
+      color: rgb(216, 63, 63);
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .show {
+      display: block;
+    }
+    .button-next {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+
+  </style>
+
+<div class="pagination">
+  
+  <a href="k.html" class="next">التالي</a>
+</div>
+</head>
+<body>
+  <!-- زر الفهرس -->
+  <div class="dropdown">
+    <button onclick="toggleDropdown()" class="dropdown-button">📚 الفهرس</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="a.html">1 - الرئيسية</a>
+      <a href="b.html">2 - بنية الذكاء الاصطناعي</a>
+      <a href="c.html">3 - أنواع الذكاء الاصطناعي</a>
+      <a href="d.html">4 - كيف يعمل الذكاء الاصطناعي</a>
+      <a href="e.html">5 - مراحل تطور الذكاء الاصطناعي</a>
+      <a href="f.html">6 - مجالات الذكاء الاصطناعي</a>
+      <a href="g.html">7 - أبرز علماء ومطورو الذكاء الاصطناعي</a>
+      <a href="h.html">8 - دور البرمجة والشبكات في تطور الذكاء الاصطناعي</a>
+      <a href="j.html">9 - مخاوف الذكاء الاصطناعي مستقبلًا</a>
+      <a href="k.html">10 - تواصل معنا</a>
+    </div>
+  </div>
+
+  <!-- صورة التوضيح -->
+  <h1>مرحبا بك في عالم الذكاء الاصطناعي؟ <span class="emoji">🔥</span></h1>
+  <img src="robot.jpg" alt="روبوت ذكي" style="width: 91vw; height: 100vh; object-fit: cover;">
+
+  <!-- المحتوى -->
+  <div class="container">
+    
+    <h2>ما هو الذكاء الاصطناعي</h2>
+    <p>
+      الذكاء الاصطناعي هو فرع من علوم الحاسوب يهدف إلى إنشاء أنظمة وبرامج قادرة على القيام بمهام تتطلب عادة ذكاءً بشريًا.
+      هذه المهام تشمل: التعلم، الفهم، التفكير، اتخاذ القرار، وحل المشكلات، بل وحتى الإبداع أحيانًا.
+    </p>
+
+    <h2>تعريف شامل:</h2>
+    <p>
+      الذكاء الاصطناعي هو قدرة الأنظمة البرمجية والآلات على محاكاة السلوك البشري الذكي،
+      من خلال التعلم من البيانات، التكيف مع المدخلات الجديدة، وأداء المهام بطرق تشبه العقل البشري أو تفوقه أحيانًا.
+    </p>
+
+    <!-- زر التنقل -->
+    <div class="pagination">
+      <a href="k.html" class="next">التالي</a>
+    </div>
+
+    <p></p>
+    <h2>المنشئ : محمد عبدالله الليث</h2>
+  </div>
+>
+
+  <script>
+    function toggleDropdown() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropdown-button')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (var i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
